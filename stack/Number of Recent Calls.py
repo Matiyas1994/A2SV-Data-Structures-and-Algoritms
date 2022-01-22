@@ -1,5 +1,8 @@
 class RecentCounter:
-
+    '''
+    time O(1)
+    space O(n)  
+    '''
     def __init__(self):
         self.requests=[]
         self.count=0
