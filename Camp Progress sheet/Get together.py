@@ -1,3 +1,9 @@
+"""
+Problem Statement
+You are given the positions and speeds of n people. All the people are currently at different positions and moving at different speeds. 
+You want to get all the people together at the same position. You can choose any position and all the people will move towards that position with their respective speeds.
+You want to know the minimum time needed to get all the people together.
+"""
 def solve():
     # Read the number of people
     n = int(input())
